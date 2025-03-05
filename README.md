@@ -1,5 +1,3 @@
-# fakevsrealmodel
-
 ## SVM
 To train and test the SVM models use the pipeline.py file as follows: 
 ```
@@ -8,14 +6,13 @@ To train and test the SVM models use the pipeline.py file as follows:
 ### Arguments
 
 
-**encoding** specifies whether to use SIFT or LBP encoding. 
+**encoding** 
 
-Options: SIFT, LBP
+specifies whether to use SIFT or LBP encoding. **Options: SIFT, LBP**
 
-**dataset** specifies which dataset to use.
+**dataset** 
 
-Options: rvf10k. dfvr
+specifies which dataset to use. **Options: rvf10k. dfvr**
 
 
 ## CNN
-
