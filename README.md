@@ -35,3 +35,23 @@ specifies which dataset to use. *Options: rvf10k, dfvr*
 ## CNN
 
 Train and test the CNN model from this [Google Collab Workbook](https://colab.research.google.com/drive/1QG-p-fIeqMuI2ITNRuwpgdMoL6HlzGPw?usp=sharing)
+
+
+## Test Results
+
+### SVM using LBP Encoding
+
+| Dataset | Accuracy | Precision | Recall | F1 Score |
+|---------|----------|-----------|--------|----------|
+| rvf10k  | 0.6425   | 0.6276    | 0.7010 | 0.6623   |
+| hfd     | 0.9642   | 0.9658    | 0.9625 | 0.9641   |
+| dfvr    | 0.6225   | 0.6012    | 0.7280 | 0.6585   |
+
+### SVM using SIFT Encoding
+
+### CNN
+
+
+## GradCam Results
+
+## SIFT Keypoint results
